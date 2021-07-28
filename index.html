@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Решения для жизни</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+    <div class="preloader">
+        <svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path fill="currentColor"
+            d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+          </path>
+        </svg>
+      </div>
+      
+    <div class="burger_menu">
+        <ul class="burger_list">
+            <li class="burger_item active_item1"><a href="#" class="navbar_link active">Услуги</a></li>
+            <li class="burger_item"><a href="#" class="navbar_link">Назначение</a></li>
+            <li class="burger_item"><a href="#" class="navbar_link">Как это работает</a></li>
+            <li class="burger_item"><a href="#" class="navbar_link">О нас </a></li>
+            <li class="burger_item"><a href="#" class="navbar_link">Наши работы</a></li>
+            <li class="burger_item last_item"><a href="#" class="navbar_link">Контакты</a></li>
+        </ul>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="navbar_brand">
+                    <p class="brand_logo">Решения для жизни</p>
+                </div>
+                <ul class="navbar_list">
+                    <li class="navbar_item active_item"><a onmouseover="onMouseover(this)"
+                            onmouseleave="onMouseleave(this)" href="#" class="navbar_link active">Услуги</a></li>
+                    <li class="navbar_item"><a onmouseover="onMouseover(this)" onmouseleave="onMouseleave(this)"
+                            href="#" class="navbar_link">Назначение</a></li>
+                    <li class="navbar_item"><a onmouseover="onMouseover(this)" onmouseleave="onMouseleave(this)"
+                            href="#" class="navbar_link">Как это работает</a></li>
+                    <li class="navbar_item"><a onmouseover="onMouseover(this)" onmouseleave="onMouseleave(this)"
+                            href="#" class="navbar_link">О нас </a></li>
+                    <li class="navbar_item"><a onmouseover="onMouseover(this)" onmouseleave="onMouseleave(this)"
+                            href="#" class="navbar_link">Наши работы</a></li>
+                    <li class="navbar_item last_item"><a onmouseover="onMouseover(this)"
+                            onmouseleave="onMouseleave(this)" href="#" class="navbar_link">Контакты</a></li>
+                </ul>
+                <div class="header_contact_block">
+                    <div class="number_mail_block">
+                        <p>
+                            <a href="tel:+7 (926) 423-31-99" class="number_text">+7 (926) 423-31-99</a>
+                        </p>
+                        <p>
+                            <a href="mailto:info@uslugidlyabiznesa.ru" class="mail_text">info@uslugidlyabiznesa.ru</a>
+                        </p>
+                    </div>
+                    <div class="telegram_watsapp_block">
+                        <a href="#">
+                            <div class="telegram_img_block">
+                                <img src="./img/Telegram.png" alt="" class="telegram_img">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="whatsapp_img_block telegram_img_block">
+                                <img src="./img/WhatApp.png" alt="" class="whatsapp_img telegram_img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="navbar_btn_block">
+                        <button class="navbar_btn">Обратный звонок</button>
+                    </div>
+                </div>
+                <div class="burger_icon">
+                    <div class="burger_container" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- section one -->
+
+    <section class="section_one">
+        <div class="container">
+            <div class="section_row">
+                <div class="left_text_block">
+                    <p class="left_block_text">Решения для жизни - когда качество и комфорт важнее всего! </p>
+                    <p class="left_block_title">
+                        С <span class="section_one_title_span">2014</span> года устанавливаем системы туманообразования
+                    </p>
+                </div>
+                <div class="section_right_block">
+                    <img src="./img/section_one_img.png" alt="" class="section_right_img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section two -->
+    <section class="section_two">
+        <div class="container">
+            <div class="section_two_slider">
+                <div class="section_two_row">
+                    <div class="section_two_left">
+                        <div class="section_two_title_block">
+                            <p class="section_two_right_title">У нас вы всегда сможете:</p>
+                            <p class="section_two_right_des">Получить качественные услуги по установке и монтажу
+                                системы туманообразования «Под ключ»</p>
+                        </div>
+                    </div>
+                    <div class="section_two_right">
+                        <!-- <img src="./img/section_two.png" alt="" class="section_two_img"> -->
+                    </div>
+                </div>
+                <div class="section_two_row">
+                    <div class="section_two_left">
+                        <div class="section_two_title_block">
+                            <p class="section_two_right_title">У нас вы всегда сможете:</p>
+                            <p class="section_two_right_des">Получить качественные услуги по установке и монтажу
+                                системы туманообразования «Под ключ»</p>
+                        </div>
+                    </div>
+                    <div class="section_two_right">
+                        <!-- <img src="./img/section_two.png" alt="" class="section_two_img"> -->
+                    </div>
+                </div>
+                <div class="section_two_row">
+                    <div class="section_two_left">
+                        <div class="section_two_title_block">
+                            <p class="section_two_right_title">У нас вы всегда сможете:</p>
+                            <p class="section_two_right_des">Получить качественные услуги по установке и монтажу
+                                системы туманообразования «Под ключ»</p>
+                        </div>
+                    </div>
+                    <div class="section_two_right">
+                        <!-- <img src="./img/section_two.png" alt="" class="section_two_img"> -->
+                    </div>
+                </div>
+                <div class="section_two_row">
+                    <div class="section_two_left">
+                        <div class="section_two_title_block">
+                            <p class="section_two_right_title">У нас вы всегда сможете:</p>
+                            <p class="section_two_right_des">Получить качественные услуги по установке и монтажу
+                                системы туманообразования «Под ключ»</p>
+                        </div>
+                    </div>
+                    <div class="section_two_right">
+                        <!-- <img src="./img/section_two.png" alt="" class="section_two_img"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section three -->
+    <section class="section_three">
+        <div class="container">
+            <div class="section_three_row">
+                <div class="section_three_left_big">
+                    <div class="section_three_left">
+                        <div class="three_left_top">
+                            <p class="left_top_text">Туманообразование на производственных предприятиях </p>
+                            <a href="#" class="left_top_link">
+                                <div class="link_div">
+                                    <div class="link_img_block">
+                                        <img src="./img/Arrow2.png" alt="">
+                                    </div>
+                                    <span class="link_text">Подробнее</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="three_left_bottom">
+                            <p class="left_top_text left_top_text2">Для кафе, ресторанов, летних площадок и террас</p>
+                            <p class="left_bottom_text">В жаркое время года туман на летней площадке станет спасением
+                                для посетителей кафе и ресторанов. Благодаря туманообразующей системе снижается
+                                температура по всей территории распыления до оптимальных показателей</p>
+                            <a href="#" class="left_top_link">
+                                <div class="link_div">
+                                    <div class="link_img_block">
+                                        <img src="./img/Arrow2.png" alt="">
+                                    </div>
+                                    <span class="link_text">Подробнее</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section_three_mid">
+                        <p class="left_top_text">Туманообразование для теплиц и оранжерей</p>
+                        <a href="#" class="left_top_link">
+                            <div class="link_div">
+                                <div class="link_img_block">
+                                    <img src="./img/Arrow2.png" alt="">
+                                </div>
+                                <span class="link_text">Подробнее</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="section_three_big_bottom">
+                        <div class="big_bottom_mini_blocks">
+                            <img class="mini_block_img" src="./img/01-Увлажнение.png" alt="">
+                        </div>
+                        <div class="big_bottom_mini_blocks">
+                            <img class="mini_block_img" src="./img/02-Устранение пыли.png" alt="">
+                        </div>
+                        <div class="big_bottom_mini_blocks">
+                            <img class="mini_block_img" src="./img/03-Орошение.png" alt="">
+                        </div>
+                        <div class="big_bottom_mini_blocks">
+                            <img class="mini_block_img" src="./img/04-Отпугивание насекомых.png" alt="">
+                        </div>
+                        <div class="big_bottom_mini_blocks last_mini_block">
+                            <img class="mini_block_img" src="./img/05-Устранение запахов.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="section_three_right">
+                    <div class="three_right_top">
+                        <p class="left_top_text">Установка в сфере животноводства</p>
+                        <a href="#" class="left_top_link">
+                            <div class="link_div">
+                                <div class="link_img_block">
+                                    <img src="./img/Arrow2.png" alt="">
+                                </div>
+                                <span class="link_text">Подробнее</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="three_right_bottom"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section four -->
+    <section class="section_four">
+        <div class="container">
+            <div class="section_four_row">
+                <p class="section_four_title">Ответим на все интереусующие вас вопросы</p>
+                <div class="section_four_description">
+                    <p class="section_four_des">Поможем подобрать систему туманообразования, проконсультируем, обсудим
+                        стоимость работ</p>
+                </div>
+                <form class="section_four_form">
+                    <div class="name_input_block">
+                        <input onfocus="onChange(event)" onfocusout="onMouseup(this)" class="name_input" id="name"
+                            autocomplete="off">
+                        <label class="name_label" for="name">Как к вам обращаться</label>
+                    </div>
+                    <div class="number_input_block">
+                        <input onclick="onChange(event)" onfocusout="onMouseup(this)" class="name_input" id="number"
+                            autocomplete="off">
+                        <label class="name_label" for="number">Номер телефона</label>
+                    </div>
+                </form>
+                <div class="btn_block">
+                    <button class="section_four_btn">Перезвоните мне</button>
+                    <div class="btn_text_block">
+                        <p class="btn_text">Нажимая на кнопку, вы даёте согласие на обработку своих персональных данных
+                            и соглашаетесь с Пользовательским соглашением</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section five -->
+    <section class="section_five">
+        <div class="container">
+            <p class="section_five_title">Что дальше?</p>
+            <div class="section_five_row_big">
+                <div class="section_five_row">
+                    <div class="step_block">
+                        <div class="step">
+                            <div class="step_ellipse">
+                                <p class="step_number">1</p>
+                            </div>
+                            <p class="step_text">Шаг</p>
+                        </div>
+                        <div class="step_text_block">
+                            <p class="step_about">Обсуждаем ваши требования</p>
+                            <a href="#" class="step_link">
+                                <div class="step_link_block">
+                                    <div class="step_link_arrow_block">
+                                        <img src="./img/Arrow3.png" alt="">
+                                    </div>
+                                    <p class="step_link_text">Подробнее</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="doted_line">
+                        <img src="./img/Line4.png" alt="">
+                    </div>
+                    <div class="step_block">
+                        <div class="step">
+                            <div class="step_ellipse">
+                                <p class="step_number">2</p>
+                            </div>
+                            <p class="step_text">Шаг</p>
+                        </div>
+                        <div class="step_text_block">
+                            <p class="step_about">Подбираем систему туманообразования </p>
+                            <a href="#" class="step_link">
+                                <div class="step_link_block">
+                                    <div class="step_link_arrow_block">
+                                        <img src="./img/Arrow3.png" alt="">
+                                    </div>
+                                    <p class="step_link_text">Подробнее</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="doted_line">
+                        <img src="./img/Line4.png" alt="">
+                    </div>
+                    <div class="step_block">
+                        <div class="step">
+                            <div class="step_ellipse">
+                                <p class="step_number">3</p>
+                            </div>
+                            <p class="step_text">Шаг</p>
+                        </div>
+                        <div class="step_text_block">
+                            <p class="step_about">Делаем просчет проекта в нескольких вариантах</p>
+                            <a href="#" class="step_link">
+                                <div class="step_link_block">
+                                    <div class="step_link_arrow_block">
+                                        <img src="./img/Arrow3.png" alt="">
+                                    </div>
+                                    <p class="step_link_text">Подробнее</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="doted_line">
+                        <img src="./img/Line4.png" alt="">
+                    </div>
+                    <div class="step_block">
+                        <div class="step">
+                            <div class="step_ellipse">
+                                <p class="step_number">4</p>
+                            </div>
+                            <p class="step_text">Шаг</p>
+                        </div>
+                        <div class="step_text_block">
+                            <p class="step_about">Выезжаем на объект, заключаем договор</p>
+                            <a href="#" class="step_link">
+                                <div class="step_link_block">
+                                    <div class="step_link_arrow_block">
+                                        <img src="./img/Arrow3.png" alt="">
+                                    </div>
+                                    <p class="step_link_text">Подробнее</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="doted_line">
+                        <img src="./img/Line4.png" alt="">
+                    </div>
+                    <div class="step_block">
+                        <div class="step">
+                            <div class="step_ellipse">
+                                <p class="step_number">5</p>
+                            </div>
+                            <p class="step_text">Шаг</p>
+                        </div>
+                        <div class="step_text_block">
+                            <p class="step_about">Мы производим монтаж и установку системы</p>
+                            <a href="#" class="step_link">
+                                <div class="step_link_block">
+                                    <div class="step_link_arrow_block">
+                                        <img src="./img/Arrow3.png" alt="">
+                                    </div>
+                                    <p class="step_link_text">Подробнее</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="doted_line">
+                        <img src="./img/Line4.png" alt="">
+                    </div>
+                </div>
+                <div class="section_five_middle_block">
+                    <div class="principes">
+                        <p class="principes_title">Принцип работы состоит из нескольких основных процессов.</p>
+                        <p class="principes_descriptiion">Распыленная вода моментально испаряется, поглощая тепло из
+                            воздуха. Таким образом снижается температура воздуха.</p>
+                    </div>
+                    <div class="system">
+                        <p class="systems_title">Система туманообразования состоит из следующих элементов:</p>
+                        <ul class="section_five_list">
+                            <li class="section_five_item">Система фильтрации</li>
+                            <li class="section_five_item">Насосная установка высокого давления (70-100 бар) или низкого
+                                давления (ниже 10 бар)</li>
+                            <li class="section_five_item">Форсунки туманообразующие</li>
+                            <li class="section_five_item">Фитинги</li>
+                            <li class="section_five_item">Пульт управления</li>
+                        </ul>
+                    </div>
+                    <div class="section_five_middle_text_block">
+                        <p class="section_five_middle_text">При правильном подборе туманообразующей системы возможно
+                            ощутимо снизить затраты на полив, охладить, увлажнить воздух, устранить неприятные запахи,
+                            аллергены и отпугнуть насекомых, а так же снять статическое электричество.</p>
+                    </div>
+                </div>
+                <div class="section_five_img_block">
+                    <img src="./img/img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section six -->
+    <section class="section_six">
+        <div class="container">
+            <div class="section_six_row">
+                <div class="section_six_left">
+                    <p class="section_six_name">Алексей</p>
+                    <p class="section_six_person">Инженер-проектировщик</p>
+                </div>
+                <div class="section_six_mid">
+                    <p class="section_six_name">Руслан</p>
+                    <p class="section_six_person">Инженер-монтажник</p>
+                </div>
+                <div class="section_six_right">
+                    <p class="section_six_right_title">История компании Решения для жизни началась в 2014 году. </p>
+                    <p class="section_six_des">С самого момента создания компании, нашими главными приоритетами
+                        остается:</p>
+                    <ul class="section_six_list">
+                        <li class="section_six_item">Предоставление услуг по доставке, монтажу и проектированию систем
+                            туманообразования.</li>
+                        <li class="section_six_item"> Обеспечение гарантийного и текущего ремонта, оформляем официальную
+                            гарантию на все виды предоставляемых нами услуг.</li>
+                        <li class="section_six_item">Сдача в аренду профессионального туманообразующего оборудования
+                        </li>
+                    </ul>
+                    <p class="section_six_text">Каждый клиент всегда получает грамотную консультацию. Для постоянных
+                        клиентов предлагаются приятные подарки и специальными скидки.</p>
+                    <button class="section_six_btn">Рассчитать стоимость</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section seven -->
+    <section class="section_seven">
+        <div class="container">
+            <p class="section_seven_title">
+                Наши работы
+            </p>
+            <div class="section_seven_row">
+                <div class="section_seven_left">
+                    <div class="section_seven_left_top"></div>
+                    <div class="section_seven_left_bottom">
+                        <div class="section_seven_mini">
+                            <img src="./img/Rectangle 24.png" alt="">
+                        </div>
+                        <div class="section_seven_mini">
+                            <img src="./img/Rectangle 25.png" alt="">
+                        </div>
+                        <div class="section_seven_mini">
+                            <img src="./img/Rectangle 26.png" alt="">
+                        </div>
+                        <div class="section_seven_mini">
+                            <img src="./img/Rectangle 27.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="section_seven_right">
+                    <div class="section7_right_block">
+                        <div class="sc7_right_mini">
+                            <img src="./img/Rectangle 17.png" alt="">
+                        </div>
+                        <div class="sc7_right_big">
+                            <img src="./img/Rectangle 21.png" alt="">
+                        </div>
+                    </div>
+                    <div class="section7_right_block">
+                        <div class="sc7_right_big">
+                            <img src="./img/Rectangle 23.png" alt="">
+                        </div>
+                        <div class="sc7_right_mini">
+                            <img src="./img/Rectangle 22.png" alt="">
+                        </div>
+                    </div>
+                    <div class="section7_right_block sc7_right_last">
+                        <div class="sc7_right_big">
+                            <img src="./img/Rectangle 28.png" alt="">
+                        </div>
+                        <div class="sc7_right_mini">
+                            <img src="./img/Rectangle 29.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="section_four_row">
+                <p class="section_four_title">Ответим на все интересующие вас вопросы</p>
+                <div class="section_four_description">
+                    <p class="section_four_des">Поможем подобрать систему туманообразования, проконсультируем, обсудим
+                        стоимость работ</p>
+                </div>
+                <div class="number_footer_block">
+                    <a href="tel:+7 (926) 423-31-99" class="number_footer">+7 (926) 423-31-99</a>
+                    <a href="tel:+7 (977) 365-15-25" class="number_footer number_two">+7 (977) 365-15-25</a>
+                </div>
+                <form class="section_four_form footer_form">
+                    <div class="name_input_block">
+                        <input onclick="onChange(event)" onfocusout="onMouseup(this)" class="name_input" id="name1"
+                            autocomplete="off">
+                        <label class="name_label" for="name1">Как к вам обращаться</label>
+                    </div>
+                    <div class="number_input_block">
+                        <input onclick="onChange(event)" onfocusout="onMouseup(this)" class="name_input" id="number1"
+                            autocomplete="off">
+                        <label class="name_label" for="number1">Номер телефона</label>
+                    </div>
+                    <div class="number_input_block mail_input_block">
+                        <input onclick="onChange(event)" onfocusout="onMouseup(this)" class="name_input" id="mail"
+                            autocomplete="off">
+                        <label class="name_label" for="mail">Почтовый ящик</label>
+                    </div>
+                </form>
+                <div class="btn_block">
+                    <button class="section_four_btn">Перезвоните мне</button>
+                    <div class="btn_text_block">
+                        <p class="btn_text">Нажимая на кнопку, вы даёте согласие на обработку своих персональных данных
+                            и соглашаетесь с Пользовательским соглашением</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="copyright_flex">
+                <p class="copyright_text">2014-2020 © Решения для жизни</p>
+                <p class="confidetiality">Политика конфиденациальности <span class="confy">и</span> Правила обработки
+                    персональных данных</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
